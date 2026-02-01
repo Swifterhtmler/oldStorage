@@ -1,4 +1,5 @@
 
+// where the magic happens
 
 var oldStorage = oldStorage|| {};
 

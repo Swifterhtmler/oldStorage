@@ -1,12 +1,25 @@
 {
-  "name": "seconds2minutes",
+  "name": "oldstorage",
   "version": "1.0.0",
-  "description": "",
+  "description": "oldStorage - localStorage with automatic expiration. Set key-value pairs with a time-to-live, get them back or null if expired. Simple solution for cached data, temporary tokens, or anything that shouldn't live forever.",
   "license": "ISC",
   "author": "",
   "type": "commonjs",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swifterhtmler/oldStorage.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Swifterhtmler/oldStorage/issues"
+  },
+  "homepage": "https://github.com/Swifterhtmler/oldStorage#readme"
 }
